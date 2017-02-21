@@ -1,0 +1,31 @@
+1-)a.     O sistema de repositório de software é um local de armazenamento online onde pacotes de software podem ser recuperados para o computador por meio do download. O sistema é utilizado quando o usuário faz um upload de uma versão de seu projeto, esse projeto então se torna disponível para download e o usuário pode continuar seu trabalho de onde havia parado. 
+Alguns softwares desse sistema permitem um controle de versões, o que habilita o acesso a versões anteriores de um mesmo projeto.  
+     b.     Os principais fabricantes são: Analog Device, Atmel, Cirrus Logic, Cygnal, Freescale, Fujitsu, Infineon, Intel, Maxim, Microchip, NS, Phillips, Rabbit semiconductor, Renesas, ST, Texas Instruments, Toshiba, Ubicom e Zilog. 
+ 
+      d.          Big-endian significa que os bytes de maior ordem de um número serão armazenados em partes mais baixas da memória, ou seja, o byte mais a esquerda da sequência será armazenado na memória de menor valor. 
+               Little-endian significa que os bytes de menor ordem de um número serão armazenados em partes mais baixas da memória, ou seja, o byte mais a direita da sequência será armazenado na memória de menor valor. 
+  Portanto, endiannes descreve a ordem da transmissão de bytes por meio de um link digital. 
+ 
+2-)b. Pipeline é a divisão de trabalhos realizada pelo processador e esses trabalhos podem ser executados paralelamente. No caso dos microcontroladores PIC, a pipeline divide dois trabalhos: busca(fetch) e executa(execute). 
+ 
+3-)a.  Uma forma de medir o desempenho de micocontroladores é utilizando um software de benchmark. Nesse software são realizados os seguintes testes: troca de contexto cooperativo, troca de contexto preemptivo, processamento de interrupção, teste sem preempção, teste com  preempção, teste de passagem de mensagem, teste de processamento de semáforo e teste de alocação de memória. 
+ 
+     b.  O número de modos de endereçamento variam de acordo com a arquitetura de cada aparelho. Então, são apresentados dois exemplos. 
+Para o microprocessador da Intel x86 o endereçamento é realizado pela instrução MOV. Essa instrução move dados de uma posição da memória para outra. Por isso, existem vários tipos de endereçamento como: endereçamento de registro, imediato, direto, indireto de registro, base + índice, relativo de registro e relativo de base + índice. 
+             Outro microcontrolador, o AVR ATmega88, utiliza mais intruções essas, por sua vez, são mais especializadas que o do dispositivo anterior. As instruções são as seguintes: LD(Load), LDD(Load with Displ), ST(Store) e STD(Store with Displ). 
+ 
+ 
+ 
+ 
+ 
+Referências 
+ 
+https://pt.wikipedia.org/wiki/Reposit%C3%B3rio 
+http://www.feis.unesp.br/Home/departamentos/engenhariaeletrica/microcontrolador_atmel_1-1.pdf 
+https://en.wikipedia.org/wiki/Endianness 
+https://arqufs2008.wordpress.com/2008/05/26/little-endian-vs-big-endian/ 
+http://rafaellindemann.blogspot.com.br/2012/05/ciclo-de-instrucao-para-os.html 
+https://brtosblog.wordpress.com/2010/10/16/teste-de-desempenho-do-brtos-1-4/ 
+http://www.ic.unicamp.br/~celio/mc404-2008/docs/proghelp.html.bkp 
+http://www.eletronicaprogressiva.net/2013/07/Modos-de-enderecamento-dos-microprocessadores-Intel-8086-8088-x86.html 
+https://pt.wikipedia.org/wiki/Conjunto_de_instru%C3%A7%C3%B5es
